@@ -9,7 +9,7 @@ import numpy as np
 import random
 from torchvision import transforms
 from torch.utils.data import DataLoader
-from model.bert_model import CNERModel, CREModel, HMNeTNERModel
+from model.bert_model import CNERModel, CREModel
 from processor.dataset import MMREProcessor, MMPNERProcessor, MMREDataset, MMPNERDataset
 from modules.train import RETrainer, NERTrainer
 
@@ -140,7 +140,6 @@ def main():
     parser.add_argument('--write_path', default=None, type=str, help="do_test=True, predictions will be write in write_path")
     parser.add_argument('--notes', default="", type=str, help="input some remarks for making save path dir.")
 
-    parser.add_argument('--use_CModel', default=True, help='use HVPNET model or CModel')
     parser.add_argument('--use_prompt', default=False)
     parser.add_argument('--do_train', default=False)
     parser.add_argument('--only_test', default=True)
@@ -202,10 +201,7 @@ def main():
     else:   # NER task
         label_mapping = processor.get_label_mapping()
         label_list = list(label_mapping.keys())
-        if args.use_CModel:
-            model = CNERModel(label_list, args)
-        else:
-            model = HMNeTNERModel(label_list, args)
+        model = CNERModel(label_list, args)
         model.to(args.device)
         trainer = Trainer(train_data=train_dataloader, dev_data=dev_dataloader, test_data=test_dataloader, model=model, label_map=label_mapping, args=args, logger=logger, writer=writer)
 
