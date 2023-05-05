@@ -32,4 +32,3 @@ The expected structure of files is:
  |    |    |-- ours_rel2id.json
  |-- run_multimodal.py 
  |-- run_unimodal.py 
-```
