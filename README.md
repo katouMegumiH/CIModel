@@ -8,7 +8,7 @@ The expected structure of files is:
  |    |-- Twitter2017Model
  |    |    |--unimodal
  |    |    |--multimodal
- |    |-- Twitter2015MREModel
+ |    |-- Twitter2015Model
  |    |    |--unimodal
  |    |    |--multimodal
  |-- data
