@@ -5,10 +5,10 @@ The expected structure of files is:
  |    |-- MREModel
  |    |    |--unimodal
  |    |    |--multimodal
- |    |-- Twitter2017Model
+ |    |-- Twitter2015Model
  |    |    |--unimodal
  |    |    |--multimodal
- |    |-- Twitter2015Model
+ |    |-- Twitter2017Model
  |    |    |--unimodal
  |    |    |--multimodal
  |-- data
