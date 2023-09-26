@@ -1,6 +1,16 @@
 The expected structure of files is:
 ```
 #CIModel
+ |-- ckpt
+ |    |-- MREModel
+ |    |    |--unimodal
+ |    |    |--multimodal
+ |    |-- Twitter2017Model
+ |    |    |--unimodal
+ |    |    |--multimodal
+ |    |-- Twitter2015MREModel
+ |    |    |--unimodal
+ |    |    |--multimodal
  |-- data
  |    |-- NER_data
  |    |    |--twitter15_caption.csv
@@ -32,3 +42,4 @@ The expected structure of files is:
  |    |    |-- ours_rel2id.json
  |-- run_multimodal.py 
  |-- run_unimodal.py 
+```
