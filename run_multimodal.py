@@ -122,7 +122,7 @@ def main():
     parser.add_argument('--prompt_len', default=4, type=int, help="prompt length")
     parser.add_argument('--prompt_dim', default=800, type=int, help="mid dimension of prompt project layer")
     parser.add_argument('--load_path', default=None, type=str, help="Load model from load_path")
-    parser.add_argument('--save_path', default='ckpt/MREModel/multimodal', type=str, help="save model at save_path")
+    parser.add_argument('--save_path', default='ckpt/MREModel', type=str, help="save model at save_path")
     parser.add_argument('--write_path', default=None, type=str, help="do_test=True, predictions will be write in write_path")
     parser.add_argument('--notes', default="", type=str, help="input some remarks for making save path dir.")
     parser.add_argument('--use_prompt', default=True)
