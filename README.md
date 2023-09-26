@@ -2,7 +2,7 @@ The expected structure of files is:
 ```
 #CIModel
  |-- ckpt
- |    |-- MREModel
+ |    |-- REModel
  |    |-- Twitter2015Model
  |    |    |--unimodal
  |    |    |--multimodal
