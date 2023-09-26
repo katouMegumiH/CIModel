@@ -3,8 +3,6 @@ The expected structure of files is:
 #CIModel
  |-- ckpt
  |    |-- MREModel
- |    |    |--unimodal
- |    |    |--multimodal
  |    |-- Twitter2015Model
  |    |    |--unimodal
  |    |    |--multimodal
