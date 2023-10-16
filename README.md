@@ -1,6 +1,12 @@
-# Multimodal entity recognition and relation extraction via dynamic visual-textual enhanced fusion for 
-social media big data\
-
+# Multimodal entity recognition and relation extraction via dynamic visual-textual enhanced fusion for social media big data
+\
+Overview diagram is shown below:
+\
+![image](https://github.com/katouMegumiH/CIModel/blob/main/img/overview.png)
+\
+Multimodal structure diagram is shown below:
+\
+![image](https://github.com/katouMegumiH/CIModel/blob/main/img/multimodal.png)
 \
 Please install the program's dependencies according to requirements.txt
 \
