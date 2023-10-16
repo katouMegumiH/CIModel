@@ -1,3 +1,9 @@
+# Multimodal entity recognition and relation extraction via dynamic visual-textual enhanced fusion for 
+social media big data\
+
+\
+Please install the program's dependencies according to requirements.txt
+\
 The expected structure of files is:
 ```
 #CIModel
