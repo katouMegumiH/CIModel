@@ -9,7 +9,7 @@ import numpy as np
 import random
 from torchvision import transforms
 from torch.utils.data import DataLoader
-from model.bert_model import CNERModel, CREModel
+from models.bert_model import CNERModel, CREModel
 from processor.dataset import MMREProcessor, MMPNERProcessor, MMREDataset, MMPNERDataset
 from modules.train import RETrainer, NERTrainer
 
